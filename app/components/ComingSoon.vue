@@ -59,7 +59,7 @@ export default defineComponent({
                 </div>
 
                 <div class="mt-10">
-                    <NuxtLink to="/get-started"
+                    <NuxtLink to="/"
                         class="bg-[#42389E] text-white font-semibold px-6 py-3 rounded-md shadow-md hover:bg-[#372f8a] transition duration-300">
                         Start for $1/mo
                     </NuxtLink>

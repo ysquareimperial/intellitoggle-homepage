@@ -22,12 +22,12 @@ export default defineComponent({
         </p>
 
         <div class="flex flex-col sm:flex-row gap-4">
-            <NuxtLink to="/get-started"
+            <NuxtLink to="/"
                 class="bg-[#42389E] text-white font-semibold px-6 py-3 rounded-md shadow-md hover:bg-[#372f8a] transition duration-300">
                 Start for $1/mo
             </NuxtLink>
 
-            <NuxtLink to="/learn-more"
+            <NuxtLink to="/"
                 class="border-2 border-[#42389E] text-[#42389E] font-semibold px-6 py-3 rounded-md hover:bg-[#42389E] hover:text-white transition duration-300">
                 Join AI Early Access
             </NuxtLink>

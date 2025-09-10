@@ -30,13 +30,13 @@ export default defineComponent({
                     <h3 class="font-semibold text-lg mb-4 text-[#263238]">Company</h3>
                     <ul class="space-y-2 text-sm">
                         <li>
-                            <NuxtLink to="/pricing" class="text-[#263238]">Pricing</NuxtLink>
+                            <NuxtLink to="/" class="text-[#263238]">Pricing</NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/docs" class="text-[#263238]">Docs</NuxtLink>
+                            <NuxtLink to="/" class="text-[#263238]">Docs</NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/about" class="text-[#263238]">About Us</NuxtLink>
+                            <NuxtLink to="/" class="text-[#263238]">About Us</NuxtLink>
                         </li>
                     </ul>
                 </div>
@@ -45,17 +45,17 @@ export default defineComponent({
                     <h3 class="font-semibold text-lg mb-4 text-[#263238]">Resources</h3>
                     <ul class="space-y-2 text-sm">
                         <li>
-                            <NuxtLink to="/why-intellitoggle" class="text-[#263238]">Why IntelliToggle is Different
+                            <NuxtLink to="/" class="text-[#263238]">Why IntelliToggle is Different
                             </NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/support" class="text-[#263238]">Customer Support</NuxtLink>
+                            <NuxtLink to="/" class="text-[#263238]">Customer Support</NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/terms" class="text-[#263238]">Terms &amp; Conditions</NuxtLink>
+                            <NuxtLink to="/" class="text-[#263238]">Terms &amp; Conditions</NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/privacy" class="text-[#263238]">Privacy Policy</NuxtLink>
+                            <NuxtLink to="/" class="text-[#263238]">Privacy Policy</NuxtLink>
                         </li>
                     </ul>
                 </div>

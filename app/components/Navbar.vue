@@ -18,8 +18,8 @@ const isOpen = ref(false)
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-6 items-center absolute left-1/2 transform -translate-x-1/2">
                     <NuxtLink to="/" class="text-gray-700 hover:text-[#42389E]">Home</NuxtLink>
-                    <NuxtLink to="/about" class="text-gray-700 hover:text-[#42389E]">About</NuxtLink>
-                    <NuxtLink to="/contact" class="text-gray-700 hover:text-[#42389E]">Pricing</NuxtLink>
+                    <NuxtLink to="/" class="text-gray-700 hover:text-[#42389E]">About</NuxtLink>
+                    <NuxtLink to="/" class="text-gray-700 hover:text-[#42389E]">Pricing</NuxtLink>
                 </div>
 
 
@@ -50,9 +50,9 @@ const isOpen = ref(false)
         <div v-if="isOpen" class="md:hidden bg-white shadow-md">
             <div class="space-y-2 px-4 py-3">
                 <NuxtLink to="/" class="block text-gray-700 hover:text-[#42389E]">Home</NuxtLink>
-                <NuxtLink to="/about" class="block text-gray-700 hover:text-[#42389E]">About</NuxtLink>
-                <NuxtLink to="/contact" class="block text-gray-700 hover:text-[#42389E]">Contact</NuxtLink>
-                <NuxtLink to="/signup"
+                <NuxtLink to="/" class="block text-gray-700 hover:text-[#42389E]">About</NuxtLink>
+                <NuxtLink to="/" class="block text-gray-700 hover:text-[#42389E]">Contact</NuxtLink>
+                <NuxtLink to="/"
                     class="block w-full text-center px-4 py-2 rounded-lg bg-[#42389E] text-white font-medium hover:bg-[#372f8a] transition">
                     Get Started
                 </NuxtLink>

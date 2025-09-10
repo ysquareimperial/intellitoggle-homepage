@@ -26,7 +26,7 @@ export default defineComponent({
                     Start for $1/mo
                 </NuxtLink>
 
-                <NuxtLink to="/learn-more"
+                <NuxtLink to="/"
                     class="border-2 border-[#F9A71E] text-[#F9A71E] font-semibold px-6 py-3 rounded-md hover:bg-[#F9A71E] hover:text-[#42389E] transition duration-300">
                     Join AI Early Access
                 </NuxtLink>
