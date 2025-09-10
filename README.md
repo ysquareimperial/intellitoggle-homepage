@@ -12,3 +12,13 @@
   - Add more detailed interactivity.
   - Improve accessibility with ARIA attributes and keyboard navigation.
   - Refine image optimization with lazy-loading or Nuxt Image.
+
+## Pixelay Evidence
+
+Screenshots and notes are available in the `/pixelay` folder:  
+- `pixelay-desktop.png`  
+- `pixelay-mobile.png` (not available due to extension limitation)  
+- `notes.md`  
+
+**Limitation:**  
+The "Jump to Frame" feature in Pixelay allows you to select projects to compare. However, the Pixelay version I am using in Figma does not have this feature. I have included images showing the Pixelay version I used and the one demonstrated on their official YouTube channel for reference.
