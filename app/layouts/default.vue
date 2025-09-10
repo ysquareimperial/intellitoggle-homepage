@@ -4,8 +4,6 @@ import Navbar from '~/components/Navbar.vue';
 
 export default defineComponent({
     setup() {
-
-
         return {}
     }
 })
@@ -13,8 +11,7 @@ export default defineComponent({
 
 <template>
     <div>
-        <!-- <h1>default</h1> -->
-        <Navbar/>
+        <Navbar />
         <slot />
     </div>
 </template>

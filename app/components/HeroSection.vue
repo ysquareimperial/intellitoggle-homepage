@@ -1,14 +1,13 @@
-    <script lang="ts">
-    import { defineComponent } from 'vue'
+<script lang="ts">
+import { defineComponent } from 'vue'
 
-    export default defineComponent({
-        setup() {
-
-
-            return {}
-        }
-    })
+export default defineComponent({
+    setup() {
+        return {}
+    }
+})
 </script>
+
 <template>
     <section class="py-20 flex flex-col justify-center items-center text-center px-6 
     bg-gradient-to-b from-[#D8D3FB] to-[#FCFAFF]">
@@ -35,22 +34,17 @@
         </div>
     </section>
 
-    <!-- Wrapper -->
     <section class="relative bg-[#FCFAFF]">
-        <!-- Dashboard Section -->
         <div class="flex justify-center items-center px-4">
-            <!-- Center Dashboard Card -->
             <div
                 class="relative rounded-2xl shadow-lg max-w-5xl w-full bg-gradient-to-b from-[#42389E] to-[#0F1026] p-4">
                 <img src="/images/dashboard.svg" alt="Dashboard" class="w-full h-auto rounded-xl" />
 
-                <!-- Left Card (hidden on mobile) -->
                 <div
                     class="hidden md:block absolute -left-24 top-56 -translate-y-1/2 rounded-xl shadow-lg bg-[#514B88] p-2">
                     <img src="/images/left-image.svg" alt="Left card" class="w-60 h-auto rounded-lg" />
                 </div>
 
-                <!-- Right Card (hidden on mobile) -->
                 <div
                     class="hidden md:block absolute -right-20 top-40 -translate-y-1/2 rounded-xl shadow-lg bg-gradient-to-b from-[#42389E] to-[#848AE4] p-2">
                     <img src="/images/right-image.svg" alt="Right card" class="w-56 h-28 rounded-lg" />
@@ -58,16 +52,13 @@
             </div>
         </div>
 
-        <!-- Promo Section (pulled up to overlap) -->
         <div class="bg-[#42389E] text-white py-6 px-4 -mt-10 relative z-10">
             <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-                <!-- Promo Text -->
                 <p class="text-center md:text-left text-lg">
                     $1/month for your first year. Normally $10/month. Sign up before
                     September 15, 2025.
                 </p>
 
-                <!-- Countdown -->
                 <div class="flex gap-3">
                     <!-- Days -->
                     <div class="bg-[#F9A71E] text-white rounded-md px-4 py-2 text-center">

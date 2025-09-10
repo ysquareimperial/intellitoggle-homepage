@@ -3,15 +3,13 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
     setup() {
-
-
         return {}
     }
 })
 </script>
+
 <template>
     <section class="py-16 px-4 bg-[#FFFDFF]">
-        <!-- Section Header -->
         <div class="text-center max-w-2xl mx-auto mb-12">
             <h2 class="text-5xl font-bold text-[#2E2E2E]">Built For Every Team</h2>
             <p class="mt-2 text-[20px] text-[#2E2E2E]">
@@ -19,9 +17,7 @@ export default defineComponent({
             </p>
         </div>
 
-        <!-- Cards -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <!-- Card 1 -->
             <div class="bg-white shadow-lg rounded-lg p-6 text-center h-80 flex flex-col items-center justify-center">
                 <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-xl"
                     style="background-color:#E3E0FF;">
@@ -33,7 +29,6 @@ export default defineComponent({
                 </p>
             </div>
 
-            <!-- Card 2 -->
             <div class="bg-white shadow-lg rounded-lg p-6 text-center h-80 flex flex-col items-center justify-center">
                 <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-xl"
                     style="background-color:#E3E0FF;">
@@ -45,7 +40,6 @@ export default defineComponent({
                 </p>
             </div>
 
-            <!-- Card 3 -->
             <div class="bg-white shadow-lg rounded-lg p-6 text-center h-80 flex flex-col items-center justify-center">
                 <div class="w-16 h-16 mx-auto flex items-center justify-center rounded-xl"
                     style="background-color:#E3E0FF;">

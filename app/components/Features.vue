@@ -3,26 +3,21 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
     setup() {
-
-
         return {}
     }
 })
 </script>
+
 <template>
-    <!-- Section -->
     <section class="py-16 px-4 bg-white">
         <div class="max-w-6xl mx-auto">
-            <!-- Header -->
             <div class="text-center mb-12">
                 <h2 class="text-5xl font-bold text-[#2E2E2E]">Powerful Features, Simplified</h2>
                 <p class="mt-2 text-[#2E2E2E] text-[20px]">AI-driven intelligence meets developer-friendly simplicity
                 </p>
             </div>
 
-            <!-- Cards Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- Card 1 -->
                 <div class="bg-[#ECEBF5] rounded-lg p-6 flex flex-col justify-between">
                     <div>
                         <div class="w-12 h-12 flex items-center justify-center rounded-md bg-[#42389E]">
@@ -38,11 +33,10 @@ export default defineComponent({
                     <p class="mt-6 text-[#42389E] font-semibold cursor-pointer text-[14px]">Get Started</p>
                 </div>
 
-                <!-- Card 2 -->
                 <div class="bg-[#ECEBF5] rounded-lg p-6 flex flex-col justify-between">
                     <div>
                         <div class="w-12 h-12 flex items-center justify-center rounded-md bg-[#42389E]">
-                               <Icon name="fluent:flash-checkmark-28-regular" class="h-7 w-7 text-white" />
+                            <Icon name="fluent:flash-checkmark-28-regular" class="h-7 w-7 text-white" />
                         </div>
                         <h3 class="mt-6 text-xl font-semibold text-gray-900">Smart Targeting</h3>
                         <p class="mt-2 text-[#414141] text-[14px]">
@@ -54,11 +48,10 @@ export default defineComponent({
                     <p class="mt-6 text-[#42389E] font-semibold cursor-pointer text-[14px]">Get Started</p>
                 </div>
 
-                <!-- Card 3 -->
                 <div class="bg-[#ECEBF5] rounded-lg p-6 flex flex-col justify-between">
                     <div>
                         <div class="w-12 h-12 flex items-center justify-center rounded-md bg-[#42389E]">
-                           <Icon name="streamline-plump:clean-broom-wipe" class="h-7 w-7 text-white" />
+                            <Icon name="streamline-plump:clean-broom-wipe" class="h-7 w-7 text-white" />
                         </div>
                         <h3 class="mt-6 text-xl font-semibold text-gray-900">Flag Cleanup</h3>
                         <p class="mt-2 text-[#414141] text-[14px]">
@@ -70,7 +63,6 @@ export default defineComponent({
                     <p class="mt-6 text-[#42389E] font-semibold cursor-pointer text-[14px]">Get Started</p>
                 </div>
 
-                <!-- Card 4 -->
                 <div class="bg-[#ECEBF5] rounded-lg p-6 flex flex-col justify-between">
                     <div>
                         <div class="w-12 h-12 flex items-center justify-center rounded-md bg-[#42389E]">

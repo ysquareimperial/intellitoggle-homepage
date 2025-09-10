@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const isOpen = ref(false) // auto-exposed to template
+const isOpen = ref(false)
 </script>
 
 <template>
@@ -9,21 +9,20 @@ const isOpen = ref(false) // auto-exposed to template
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8">
             <div class="flex justify-between items-center h-16">
 
-                <!-- Logo (Left) -->
                 <div class="flex-shrink-0">
                     <NuxtLink to="/">
                         <img src="/images/logo.svg" alt="Logo" class="h-12 w-auto" />
                     </NuxtLink>
                 </div>
 
-                <!-- Desktop Menu (Center) -->
+                <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-6 items-center absolute left-1/2 transform -translate-x-1/2">
                     <NuxtLink to="/" class="text-gray-700 hover:text-[#42389E]">Home</NuxtLink>
                     <NuxtLink to="/about" class="text-gray-700 hover:text-[#42389E]">About</NuxtLink>
                     <NuxtLink to="/contact" class="text-gray-700 hover:text-[#42389E]">Pricing</NuxtLink>
                 </div>
 
-                <!-- CTA Button (Right) -->
+
                 <div class="hidden md:block">
                     <button
                         class="bg-[#42389E] text-white font-semibold px-6 py-3 rounded-md shadow-lg hover:bg-[#372f8a] transition duration-300">
@@ -31,7 +30,7 @@ const isOpen = ref(false) // auto-exposed to template
                     </button>
                 </div>
 
-                <!-- Mobile Menu Button (Right) -->
+                <!-- Mobile Menu Button -->
                 <div class="md:hidden">
                     <button @click="isOpen = !isOpen"
                         class="p-2 rounded-md text-gray-700 hover:bg-gray-100 focus:outline-none">
@@ -47,7 +46,7 @@ const isOpen = ref(false) // auto-exposed to template
             </div>
         </div>
 
-        <!-- Mobile Menu Dropdown -->
+        <!-- Mobile Dropdown -->
         <div v-if="isOpen" class="md:hidden bg-white shadow-md">
             <div class="space-y-2 px-4 py-3">
                 <NuxtLink to="/" class="block text-gray-700 hover:text-[#42389E]">Home</NuxtLink>
@@ -60,5 +59,4 @@ const isOpen = ref(false) // auto-exposed to template
             </div>
         </div>
     </nav>
-
 </template>
